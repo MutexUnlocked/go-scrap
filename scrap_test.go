@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cretz/go-scrap"
+	"github.com/MutexUnlocked/go-scrap"
 )
 
 func TestMain(m *testing.M) {

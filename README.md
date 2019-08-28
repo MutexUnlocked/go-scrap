@@ -1,4 +1,4 @@
-# go-scrap [![GoDoc](https://godoc.org/github.com/cretz/go-scrap?status.svg)](https://godoc.org/github.com/cretz/go-scrap)
+# go-scrap [![GoDoc](https://godoc.org/github.com/MutexUnlocked/go-scrap?status.svg)](https://godoc.org/github.com/MutexUnlocked/go-scrap)
 
 go-scrap is a Go wrapper around the Rust [scrap](https://github.com/quadrupleslap/scrap) library. It supports reasonably
 fast capturing of raw screen pixels. The library dependency is only at compile time and statically compiled into the
@@ -8,7 +8,7 @@ binary. It works on Windows, Linux, and macOS.
 
 Obtain the library, e.g. use `go get` with `-d` to not install yet:
 
-    go get -d github.com/cretz/go-scrap
+    go get -d github.com/MutexUnlocked/go-scrap
 
 Now, the Rust subproject `scrap-sys` must be compiled which is glue between the Go library and the Rust library. With
 Rust installed, this can is done by running the following in the `scrap-sys/` subdirectory:
@@ -26,4 +26,4 @@ Now that the dependency is built, the library can be built. For example, take a 
 
     go run ./example/screenshot
 
-See the [Godoc](https://godoc.org/github.com/cretz/go-scrap) for more documentation and examples.
+See the [Godoc](https://godoc.org/github.com/MutexUnlocked/go-scrap) for more documentation and examples.

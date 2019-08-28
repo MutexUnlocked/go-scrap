@@ -6,7 +6,7 @@ and statically compiled into the binary.
 
 Since go-scrap statically links the Scrap library, the scrap-sys subdirectory
 Rust project must be built in release mode before compiling this project. See
-the README at https://github.com/cretz/go-scrap for more info.
+the README at https://github.com/MutexUnlocked/go-scrap for more info.
 */
 package scrap
 

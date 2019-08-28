@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/cretz/go-scrap"
+	"github.com/MutexUnlocked/go-scrap"
 )
 
 // This example creates a screenshot at screenshot.png or a given filename.

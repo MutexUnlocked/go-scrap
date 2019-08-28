@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cretz/go-scrap"
+	"github.com/MutexUnlocked/go-scrap"
 )
 
 // This example records the current screen to out.mp4 or the given filename.
